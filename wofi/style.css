@@ -1,0 +1,36 @@
+* {
+  font-family: SourceCodePro;
+  font-size: 16px;
+  color: #7f8c8d
+}
+
+#window,
+#outer-box {
+  background: transparent;
+}
+
+#input {
+  padding: 0px;
+  font-size: 16px; 
+  border-radius: 0px;
+  border: transparent;
+  background-color: #1e2229;
+}
+
+#inner-box {
+  background-color: #1e2229;
+  border: 2px solid #2f343f;
+  border-top: none;
+}
+
+#entry {
+  padding: 3px 10px;
+}
+
+#text {
+  padding: 5px 10px;
+}
+
+#entry:selected {
+  background-color: #1c1c1c;
+}
